@@ -44,7 +44,7 @@ class PostApp extends Component{
     render() {
         return (
             <div className='container align-content-center post-body'>
-                <h1>The Fairygodboss message Board</h1>
+                <h1>Message Board</h1>
                 <PostInput onSubmit={this.handleSubmitPost.bind(this)}/>
                 <PostList
                     posts={this.state.posts}
